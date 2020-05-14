@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.PSDisplayPosition.Cmdlet", "ProductivityTools.PSDisplayPosition.Cmdlet\ProductivityTools.PSDisplayPosition.Cmdlet.csproj", "{CFEDC5D0-D5C4-4823-8C1F-CC26D39D200B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.PSDisplayPosition.App", "ProductivityTools.PSDisplayPosition.App\ProductivityTools.PSDisplayPosition.App.csproj", "{E7D46B40-4756-4AC0-8730-4F2C56AFC893}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CFEDC5D0-D5C4-4823-8C1F-CC26D39D200B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFEDC5D0-D5C4-4823-8C1F-CC26D39D200B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFEDC5D0-D5C4-4823-8C1F-CC26D39D200B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7D46B40-4756-4AC0-8730-4F2C56AFC893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D46B40-4756-4AC0-8730-4F2C56AFC893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D46B40-4756-4AC0-8730-4F2C56AFC893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D46B40-4756-4AC0-8730-4F2C56AFC893}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
