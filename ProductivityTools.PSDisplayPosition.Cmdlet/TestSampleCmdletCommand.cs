@@ -4,8 +4,7 @@ using System.Management.Automation.Runspaces;
 
 namespace ProductivityTools.PSDisplayPosition.Cmdlet
 {
-    [Cmdlet(VerbsDiagnostic.Test,"SampleCmdlet")]
-    [OutputType(typeof(FavoriteStuff))]
+    [Cmdlet(VerbsCommon.Move,"ExternalMonitorToLeft")]
     public class TestSampleCmdletCommand : PSCmdlet
     {
         [Parameter(
