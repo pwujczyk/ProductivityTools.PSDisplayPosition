@@ -12,7 +12,6 @@ namespace ProductivityTools.PSDisplayPosition.Cmdlet
         protected override void BeginProcessing()
         {
             base.AddCommand(new MoveDisplay(this));
-            base.BeginProcessing();
         }
 
         protected override void ProcessRecord()
