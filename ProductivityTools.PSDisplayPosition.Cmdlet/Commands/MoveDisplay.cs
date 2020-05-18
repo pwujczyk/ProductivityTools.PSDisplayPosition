@@ -1,12 +1,13 @@
-﻿using System;
+﻿using ProductivityTools.PSDisplayPosition.App;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ProductivityTools.PSDisplayPosition.Cmdlet.Commands
 {
-    public class MoveDisplay : PSCmdlet.PSCommandPT<ExternalMonitorToLeftCmdlet>
+    public class MoveDisplay : PSCmdlet.PSCommandPT<ExternalMonitorToCmldetBase>
     {
-        public MoveDisplay(ExternalMonitorToLeftCmdlet cmdletType) : base(cmdletType)
+        public MoveDisplay(ExternalMonitorToCmldetBase cmdletType) : base(cmdletType)
         {
         }
 
@@ -14,7 +15,16 @@ namespace ProductivityTools.PSDisplayPosition.Cmdlet.Commands
 
         protected override void Invoke()
         {
-            WriteOutput("Hello");
+            MoveDisplayApp app = new MoveDisplayApp();
+            if (base.Cmdlet is ExternalMonitorToLeftCmdlet)
+            {
+                app.MoveDisplay(Direction.Left);
+            }
+
+            if (base.Cmdlet is ExternalMonitorToRightCmldet)
+            {
+                app.MoveDisplay(Direction.Right);
+            }
         }
     }
 }
