@@ -21,4 +21,10 @@
     <ProjectReference Include="..\ProductivityTools.PSDisplayPosition.App\ProductivityTools.PSDisplayPosition.App.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="ProductivityTools.PSDisplayPosition.psd1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
