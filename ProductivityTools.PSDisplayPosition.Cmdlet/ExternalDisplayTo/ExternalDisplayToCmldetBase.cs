@@ -7,7 +7,7 @@ using ProductivityTools.PSDisplayPosition.Cmdlet.Commands;
 namespace ProductivityTools.PSDisplayPosition.Cmdlet
 {
    
-    public abstract class ExternalMonitorToCmldetBase : PSCmdletPT
+    public abstract class ExternalDisplayToCmldetBase : PSCmdletPT
     {
       
     }

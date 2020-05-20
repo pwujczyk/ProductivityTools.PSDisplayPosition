@@ -22,5 +22,12 @@ namespace ProductivityTools.PSDisplayPosition.App
                     break;
             }
         }
+
+        public Display[] GetDisplayDetails()
+        {
+            Displays displays = new Displays();
+            displays.LoadData();
+            return displays.ToArray();
+        }
     }
 }

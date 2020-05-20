@@ -3,7 +3,7 @@
     "ProductivityTools.PSDisplayPosition.Cmdlet": {
       "commandName": "Executable",
       "executablePath": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
-      "commandLineArgs": "-noexit -command \"import-module D:\\GitHub\\ProductivityTools.PSDisplayPosition\\ProductivityTools.PSDisplayPosition.Cmdlet\\bin\\Debug\\netstandard2.0\\ProductivityTools.PSDisplayPosition.Cmdlet.dll\""
+      "commandLineArgs": "-noexit -command \"import-module D:\\GitHub-1.InProgress\\ProductivityTools.PSDisplayPosition\\ProductivityTools.PSDisplayPosition.Cmdlet\\bin\\Debug\\netstandard2.0\\ProductivityTools.PSDisplayPosition.Cmdlet.dll\""
     }
   }
 }
