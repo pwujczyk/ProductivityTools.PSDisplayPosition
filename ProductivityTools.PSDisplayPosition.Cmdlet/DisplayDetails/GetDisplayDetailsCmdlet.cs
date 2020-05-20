@@ -9,8 +9,6 @@ namespace ProductivityTools.PSDisplayPosition.Cmdlet.DisplayDetails
     [Cmdlet(VerbsCommon.Get, "DisplayDetails")]
     public class ExternalDisplayToLeftCmdlet : PSCmdletPT
     {
-
-
         protected override void ProcessRecord()
         {
             App.MoveDisplayApp app = new App.MoveDisplayApp();
