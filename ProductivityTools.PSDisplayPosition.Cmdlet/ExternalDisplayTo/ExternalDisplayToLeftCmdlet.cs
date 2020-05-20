@@ -6,8 +6,8 @@ using ProductivityTools.PSDisplayPosition.Cmdlet.Commands;
 
 namespace ProductivityTools.PSDisplayPosition.Cmdlet
 {
-    [Cmdlet(VerbsCommon.Move,"ExternalMonitorToLeft")]
-    public class ExternalMonitorToLeftCmdlet : ExternalMonitorToCmldetBase
+    [Cmdlet(VerbsCommon.Move,"ExternalDisplayToLeft")]
+    public class ExternalDisplayToLeftCmdlet : ExternalDisplayToCmldetBase
     {
         protected override void BeginProcessing()
         {

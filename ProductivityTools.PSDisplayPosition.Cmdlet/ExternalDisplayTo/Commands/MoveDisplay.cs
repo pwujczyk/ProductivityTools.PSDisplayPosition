@@ -5,9 +5,9 @@ using System.Text;
 
 namespace ProductivityTools.PSDisplayPosition.Cmdlet.Commands
 {
-    public class MoveDisplay : PSCmdlet.PSCommandPT<ExternalMonitorToCmldetBase>
+    public class MoveDisplay : PSCmdlet.PSCommandPT<ExternalDisplayToCmldetBase>
     {
-        public MoveDisplay(ExternalMonitorToCmldetBase cmdletType) : base(cmdletType)
+        public MoveDisplay(ExternalDisplayToCmldetBase cmdletType) : base(cmdletType)
         {
         }
 
@@ -16,12 +16,12 @@ namespace ProductivityTools.PSDisplayPosition.Cmdlet.Commands
         protected override void Invoke()
         {
             MoveDisplayApp app = new MoveDisplayApp();
-            if (base.Cmdlet is ExternalMonitorToLeftCmdlet)
+            if (base.Cmdlet is ExternalDisplayToLeftCmdlet)
             {
                 app.MoveDisplay(Direction.Left);
             }
 
-            if (base.Cmdlet is ExternalMonitorToRightCmldet)
+            if (base.Cmdlet is ExternalDisplayToRightCmldet)
             {
                 app.MoveDisplay(Direction.Right);
             }
