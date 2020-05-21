@@ -12,9 +12,27 @@
 
 # Display position
 
-Module allows to change position of the external display. As a bonus it returns information about displays.
+Module allows to change position of the external display. Additionally it returns information about displays.
 
 <!--more-->
 <!--og-image-->
 ![Display settings](Images/DisplayConfiguration.png) 
+
+Main cmdlet doesn't return any information it just move screen to the chosen side.
+
+```PowerShell
+Move-ExternalDisplayToRight -Verbose
+```
+
+![Moving display](Images/MovingDisplay.png) 
+
+Getting details of the display returns information about all connected devices.
+
+```PowerShell
+Get-DisplayDetails -Verbose
+```
+
+![Display details](Images/DisplayDetails.png) 
+
+
 
