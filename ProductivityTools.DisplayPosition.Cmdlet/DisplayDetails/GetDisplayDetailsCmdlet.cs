@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Management.Automation;
 using System.Text;
 
-namespace ProductivityTools.PSDisplayPosition.Cmdlet.DisplayDetails
+namespace ProductivityTools.DisplayPosition.Cmdlet.DisplayDetails
 {
     [Description("Command displays information about all connected")]
     [Cmdlet(VerbsCommon.Get, "DisplayDetails")]
@@ -13,7 +13,7 @@ namespace ProductivityTools.PSDisplayPosition.Cmdlet.DisplayDetails
     {
         protected override void ProcessRecord()
         {
-            WriteVerbose("Hello from ProductivityTools.PSDisplayPosition.Cmdlet");
+            WriteVerbose("Hello from ProductivityTools.DisplayPosition.Cmdlet");
             WriteVerbose("Getting display data");
             App.MoveDisplayApp app = new App.MoveDisplayApp();
             var x=app.GetDisplayDetails();

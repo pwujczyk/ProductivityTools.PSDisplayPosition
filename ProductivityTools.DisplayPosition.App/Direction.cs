@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProductivityTools.PSDisplayPosition.App
+namespace ProductivityTools.DisplayPosition.App
 {
     public enum Direction
     {
