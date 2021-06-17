@@ -1,7 +1,7 @@
 ﻿using ProductivityTools.UnmanagedDisplayWrapper;
 using System;
 
-namespace ProductivityTools.PSDisplayPosition.App
+namespace ProductivityTools.DisplayPosition.App
 {
     public class MoveDisplayApp
     {

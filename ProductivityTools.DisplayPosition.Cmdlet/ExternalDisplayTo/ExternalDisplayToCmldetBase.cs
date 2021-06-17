@@ -2,9 +2,9 @@
 using System.Management.Automation;
 using System.Management.Automation.Runspaces;
 using ProductivityTools.PSCmdlet;
-using ProductivityTools.PSDisplayPosition.Cmdlet.Commands;
+using ProductivityTools.DisplayPosition.Cmdlet.Commands;
 
-namespace ProductivityTools.PSDisplayPosition.Cmdlet
+namespace ProductivityTools.DisplayPosition.Cmdlet
 {
     public abstract class ExternalDisplayToCmldetBase : PSCmdletPT { }
 }

@@ -3,9 +3,9 @@ using System.ComponentModel;
 using System.Management.Automation;
 using System.Management.Automation.Runspaces;
 using ProductivityTools.PSCmdlet;
-using ProductivityTools.PSDisplayPosition.Cmdlet.Commands;
+using ProductivityTools.DisplayPosition.Cmdlet.Commands;
 
-namespace ProductivityTools.PSDisplayPosition.Cmdlet
+namespace ProductivityTools.DisplayPosition.Cmdlet
 {
     [Description("Command moves external display to the left")]
     [Cmdlet(VerbsCommon.Move,"ExternalDisplayToLeft")]

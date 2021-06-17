@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>ProductivityTools.PSDisplayPosition.Cmdlet</AssemblyName>
+    <AssemblyName>ProductivityTools.DisplayPosition.Cmdlet</AssemblyName>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 
@@ -18,11 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ProductivityTools.PSDisplayPosition.App\ProductivityTools.PSDisplayPosition.App.csproj" />
+    <ProjectReference Include="..\ProductivityTools.DisplayPosition.App\ProductivityTools.DisplayPosition.App.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="ProductivityTools.PSDisplayPosition.psd1">
+    <None Update="ProductivityTools.DisplayPosition.psd1">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
